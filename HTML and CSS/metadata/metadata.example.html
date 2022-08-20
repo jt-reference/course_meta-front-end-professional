@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jane Wilson" />
+    <meta name="description" content="Jane's first web page" />
+    <meta name="robots" content="index, follow" />
+    <title>Metadata</title>
+  </head>
+  <body>
+    <p>
+      Metadata cheat sheet HTML &lt;meta&gt; tags Earlier in the course, you
+      learned about meta tags and how you can leverage them to convey
+      information to search engines to better categorize your pages. We
+      recommend that you keep this cheat sheet handy when building your web
+      applications. The structure of a meta tag is as follows.
+    </p>
+
+    <p>
+      Name The name of the property can be anything you like, although browsers
+      usually expect a value they understand and can take an action upon. An
+      example would be &lt;meta name=&quot;author&quot;
+      content=&quot;name&quot;&gt; to state the author of the page.
+    </p>
+
+    <p>Content</p>
+
+    <p>
+      The content field specifies the property&#39;s value. For example, you can
+      use &lt;meta name=&quot;language&quot; content=&quot;english&quot;&gt;, to
+      specify the language of the webpage to search engines.
+    </p>
+
+    <p>Charset</p>
+
+    <p>
+      The charset is a special field that lets you specify the character
+      encoding used for the page so that the browser can display it properly.
+      The most frequently used is utf-8, and you would add it to your HTML
+      header as follows: &lt;meta charset=&quot;UTF-8&quot;&gt;
+    </p>
+
+    <p>HTTP-equiv</p>
+
+    <p>
+      This field stands for HTTP equivalent, and it’s used to simulate HTTP
+      response headers. This is rare to see, and it’s recommended to use HTTP
+      headers over HTML http-equiv meta tags. For example, the next tag would
+      instruct the browser to refresh the page every 30 minutes: &lt;meta
+      http-equiv=&quot;refresh&quot; content=&quot;30&quot;&gt;
+    </p>
+
+    <p>
+      Basic meta tags (meta tags For SEO) &lt;meta
+      name=&quot;description&quot;/&gt; provides a brief description of the web
+      page
+    </p>
+
+    <p>&lt;meta name=”title”/&gt; specifies the title of the web page</p>
+
+    <p>
+      &lt;meta name=&quot;author&quot; content=&quot;name&quot;&gt; specifies
+      the author of the web page
+    </p>
+
+    <p>
+      &lt;meta name=&quot;language&quot; content=&quot;english&quot;&gt;
+      specifies the language of the web page
+    </p>
+
+    <p>
+      &lt;meta name=&quot;keywords&quot;/&gt; provides keywords to search
+      engines to categorize your pages
+    </p>
+
+    <p>
+      &lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt;
+      tells search engines how to crawl or index a certain page
+    </p>
+
+    <p>
+      &lt;meta name=&quot;google&quot;/&gt; tells Google not to show the
+      sitelinks search box for your page when showing search results
+    </p>
+
+    <p>
+      &lt;meta name=&quot;googlebot&quot; content=”notranslate” /&gt; tells
+      Google you don’t want to provide an automatic translation for your page if
+      the user uses a different language
+    </p>
+
+    <p>
+      &lt;meta name=&quot;revised&quot; content=&quot;Sunday, July 18th, 2010,
+      5:15 pm&quot; /&gt; specifies the last modified date and time on which you
+      have made certain changes
+    </p>
+
+    <p>
+      &lt;meta name=&quot;rating&quot; content=&quot;safe for kids&quot;&gt;
+      specifies the expected audience for your page
+    </p>
+
+    <p>
+      &lt;meta name=&quot;copyright&quot; content=&quot;Copyright 2022&quot;&gt;
+      specifies a Copyright
+    </p>
+
+    <p>
+      &lt;meta http-equiv=&quot;...&quot;/&gt; tags &lt;meta
+      http-equiv=&quot;content-type&quot; content=&quot;text/html&quot;&gt;
+      specifies the format of the document returned by the server
+    </p>
+
+    <p>
+      &lt;meta http-equiv=&quot;default-style&quot;/&gt; specifies the format of
+      the styling document
+    </p>
+
+    <p>
+      &lt;meta http-equiv=&quot;refresh&quot;/&gt; specifies the duration of the
+      page before it’s considered stale
+    </p>
+
+    <p>
+      &lt;meta http-equiv=”Content-language”/&gt; specifies the language of the
+      page
+    </p>
+
+    <p>
+      &lt;meta http-equiv=&quot;Cache-Control&quot;
+      content=&quot;no-cache&quot;&gt; instructs the browser how to cache your
+      page
+    </p>
+
+    <p>
+      Responsive design/mobile meta tags &lt;meta
+      name=&quot;format-detection&quot; content=&quot;telephone=yes&quot;/&gt;
+      indicates that telephone numbers should appear as hypertext links that can
+      be clicked to make a phone call
+    </p>
+
+    <p>
+      &lt;meta name=&quot;HandheldFriendly&quot; content=&quot;true&quot;/&gt;
+      specifies that the page can be properly visualized on mobile devices
+    </p>
+
+    <p>
+      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+      initial-scale=1.0&quot;/&gt; specifies the area of the window in which web
+      content can be seen
+    </p>
+  </body>
+</html>
