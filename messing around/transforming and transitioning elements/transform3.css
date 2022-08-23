@@ -1,0 +1,68 @@
+/* Properties for other selectors */
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.container {
+  min-height: 20vh;
+  background-color: ;
+}
+
+.letters {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.letters p {
+  text-align: center;
+  color: black;
+  width: 70px;
+  margin-right: 1.5px;
+  border-radius: 50%;
+  border: solid black;
+}
+
+.letters:hover p:nth-child(even) {
+  transform: rotateY(360deg) skew(10deg);
+  transition: 0.5s;
+}
+
+.letters:hover p:nth-child(odd) {
+  transform: rotateX(360deg) skew(10deg);
+  transition: 1.5s;
+  color: red;
+}
+
+img {
+  border-radius: 50%;
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.image {
+  display: flex;
+  margin-top: 20px;
+
+  animation: bounce 5s linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.image:hover {
+  filter: drop-shadow(50px 100px 50px red);
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(640px, 0, 0);
+  }
+}
